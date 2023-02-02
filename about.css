@@ -1,0 +1,160 @@
+body {
+    background: url(/images/bgtexture.jpg);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    color: #5F002B;
+}
+
+h1 {
+    font-family: 'fugazone';
+    font-size: 1.953rem;
+}
+
+h2 {
+  font-family: 'fugazone';
+  font-size: 1.563rem;
+}
+
+h5 {
+    font-family: 'fugazone';
+}
+
+p {
+    font-family: "montaukregular";
+    font-size: .9rem;
+}
+
+figure {
+  text-align: right;
+}
+
+figcaption {
+  font-family: "montaukregular";
+  font-size: .9rem;
+
+}
+
+
+/* About Paragraph CSS */
+
+.mybg {
+  background-color: white;
+  /* height: 526px; */
+}
+.mybg h1{
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+.mybg p
+{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  
+}
+
+.mybg p:nth-of-type(3)
+{
+ 
+  padding-bottom: 2rem;
+  
+}
+
+/* Our Team Title CSS */
+.team {
+  background-color: white;
+  height: 5rem;
+  
+}
+
+.team h2 {
+  margin-bottom: 0%;
+  padding: 1.5rem;
+}
+
+
+
+
+/* Cards CSS */
+
+.card {
+    
+    border: none;
+    border-radius: 0;
+    
+    
+}
+
+.card-img-top {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.card-body p {
+    font-size: 1rem;
+}
+
+
+/* footer */
+
+
+
+
+
+/* To Check Layout */
+/* [class*="col"] {
+  padding: 1rem;
+  background-color: skyblue;
+  border: 2px solid white;
+} */
+
+
+
+
+
+
+
+
+/* Fonts */
+
+@font-face {
+    font-family: "montaukbold";
+    src: url("/Fonts/montauk-bold-webfont.woff2") format("woff2"),
+      url("/Fonts/montauk-bold-webfont.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: "montaukregular";
+    src: url("/Fonts/montauk-regular-webfont.woff2") format("woff2"),
+      url("/Fonts/montauk-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "montauklight";
+    src: url("/Fonts/montauk-light-webfont.woff2") format("woff2"),
+      url("/Fonts/montauk-light-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: "montaukitalic";
+    src: url("/Fonts/montauk-italic-webfont.woff2") format("woff2"),
+      url("/Fonts/montauk-italic-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'fugazone';
+    src: url('/Fonts/fugazone-regular-webfont.woff2') format('woff2'),
+         url('/Fonts/fugazone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
