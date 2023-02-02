@@ -1,0 +1,141 @@
+body {
+    background-image: url(/images/bgtexture.jpg);
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+    background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+}
+
+.navColor {
+    color: #5F002B;
+    margin: 5px;
+    font-family: Fugaz One ;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+li.nav-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+.navbr {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  
+}
+.homeSingle {
+    justify-content: start;
+    object-fit: contain;
+   
+
+}
+.homeMult {
+   
+    font-family: Fugaz One;
+    font-size: 20px;
+    color: #5F002B;
+ 
+  
+}
+.mainContainer {
+    margin-top: 5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    justify-content:center;
+
+}
+.homeMult h1, p {
+    background-color: white;
+    margin: 0;
+
+
+
+}
+.chickenSand {
+    width: 100%;
+    object-position: cover;
+  
+
+
+}
+.homeMult, h1 {
+    font-size: 20px;
+    font-family: Fugaz One;
+    padding: 5px;
+}
+
+.homeMult, p{
+    font-size: 10px;
+    padding-bottom: 5px;
+    font-family: 'montaukregular';
+    padding: 7px;
+    
+}
+.whiteBG {
+    background-color: white;
+    color: #5F002B;
+
+}
+
+
+
+.heroImage {
+    height: 100%;
+    width: 100%;
+    padding:0px;
+    
+}
+.homeImage {
+    padding: 0px;
+    
+}
+
+
+@font-face {
+    font-family: 'montaukbold';
+    src: url('/Fonts/montauk-bold-webfont.woff2') format('woff2'),
+         url('/Fonts/montauk-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: bold;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montaukitalic';
+    src: url('/Fonts/montauk-italic-webfont.woff2') format('woff2'),
+         url('/Fonts/montauk-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montauklight';
+    src: url('/Fonts/montauk-light-webfont.woff2') format('woff2'),
+         url('/Fonts/montauk-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montaukregular';
+    src: url('/Fonts/montauk-regular-webfont.woff2') format('woff2'),
+         url('/Fonts/montauk-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
