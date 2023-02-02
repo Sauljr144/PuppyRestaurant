@@ -1,0 +1,71 @@
+.container {
+  flex-direction: row;
+}
+.copyright {
+  text-align: end;
+}
+.pic13 {
+  align-items: flex-end;
+  display: flex;
+}
+p {
+  font-family: "Fugaz One", cursive;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  font-size: xx-large;
+}
+h3 {
+  flex-direction: row;
+}
+nav ul {
+  align-self: flex-end;
+  font-family: "Fugaz One", cursive;
+  text-align: right;
+  list-style: none;
+}
+nav li {
+  margin: 0.5rem;
+}
+body {
+  background: url(/images/bgtexture.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  justify-content: center;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.firstrow {
+  margin: 5px;
+}
+.secondrow {
+  margin: 5px;
+}
+.thirdrow {
+  margin: 5px;
+}
+.pic1,
+.pic2,
+.pic3,
+.pic4,
+.pic5,
+.pic6,
+.pic7,
+.pic8,
+.pic9,
+.pic10,
+.pic11,
+.pic12 {
+  margin: 10px;
+  border: 10px solid white;
+}
+@media screen and (min-width: 468px) {
+  .gallery {
+    display: flex;
+    align-items: center;
+  }
+}
