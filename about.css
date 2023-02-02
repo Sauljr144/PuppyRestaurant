@@ -22,7 +22,7 @@ h5 {
 
 p {
     font-family: "montaukregular";
-    font-size: .9rem;
+    font-size: .85rem;
 }
 
 figure {
@@ -35,15 +35,44 @@ figcaption {
 
 }
 
+/* Nav Bar */
+.bg-body-tertiary {
+  --bs-bg-opacity: 0;
+  background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+}
+
+.navColor {
+  color: #5F002B;
+  margin: 5px;
+  font-family: 'fugazone';
+  font-size: 20px;
+  text-decoration: none;
+}
+
+li.nav-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+
+}
+.navbr {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
 
 /* About Paragraph CSS */
 
+
+
+
 .mybg {
   background-color: white;
-  /* height: 526px; */
+  
 }
 .mybg h1{
-  padding-top: 2rem;
+  padding-top: 1.25rem;
   padding-left: 2rem;
   padding-right: 1rem;
 }
@@ -51,13 +80,14 @@ figcaption {
 {
   padding-left: 2rem;
   padding-right: 2rem;
+  text-align: left;
   
 }
 
 .mybg p:nth-of-type(3)
 {
  
-  padding-bottom: 2rem;
+  padding-bottom: 4.25rem;
   
 }
 
