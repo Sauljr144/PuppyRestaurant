@@ -14,11 +14,17 @@ h1{
   background-color: white;
   padding: 10px;
   font-size: xx-large;
+  color: #5F002B;
+}
+p {
+  font-family: "montaukregular";
+  font-size: .85rem;
+  color: #5F002B;
 }
 h3 {
   flex-direction: row;
 }
-nav ul {
+/* nav ul {
   align-self: flex-end;
   font-family: "Fugaz One", cursive;
   text-align: right;
@@ -26,7 +32,7 @@ nav ul {
 }
 nav li {
   margin: 0.5rem;
-}
+} */
 body {
   background: url(/images/bgtexture.jpg);
   background-size: cover;
@@ -75,4 +81,69 @@ figure {
 figcaption {
   font-family: "montaukregular";
   font-size: .9rem;
+  color: #5F002B;
+}
+.bg-body-tertiary {
+  --bs-bg-opacity: 0;
+  background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+}
+
+.navColor {
+  color: #5F002B;
+  margin: 5px;
+  font-family: 'fugazone';
+  font-size: 20px;
+  text-decoration: none;
+}
+
+li.nav-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+
+}
+.navbr {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+@font-face {
+  font-family: "montaukbold";
+  src: url("/Fonts/montauk-bold-webfont.woff2") format("woff2"),
+    url("/Fonts/montauk-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "montaukregular";
+  src: url("/Fonts/montauk-regular-webfont.woff2") format("woff2"),
+    url("/Fonts/montauk-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "montauklight";
+  src: url("/Fonts/montauk-light-webfont.woff2") format("woff2"),
+    url("/Fonts/montauk-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "montaukitalic";
+  src: url("/Fonts/montauk-italic-webfont.woff2") format("woff2"),
+    url("/Fonts/montauk-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'fugazone';
+  src: url('/Fonts/fugazone-regular-webfont.woff2') format('woff2'),
+       url('/Fonts/fugazone-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }
