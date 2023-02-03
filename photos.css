@@ -8,7 +8,7 @@
   align-items: flex-end;
   display: flex;
 }
-p {
+h1{
   font-family: "Fugaz One", cursive;
   text-align: center;
   background-color: white;
@@ -68,4 +68,11 @@ body {
     display: flex;
     align-items: center;
   }
+}
+figure {
+  text-align: right;
+}
+figcaption {
+  font-family: "montaukregular";
+  font-size: .9rem;
 }
