@@ -48,7 +48,7 @@ li.nav-items {
     justify-content:center;
 
 }
-.homeMult h1, p {
+.mainAboutColor{
     background-color: white;
     margin: 0;
 
@@ -80,7 +80,29 @@ li.nav-items {
     color: #5F002B;
 
 }
+.footerWidth
+{
+    width: 100%;
+}
 
+
+.cLogo {
+   width: 20%
+}
+
+.footerColor {
+    background-color: var(--bs-bg-opacity); 
+    color: #5F002B;  
+
+}
+
+figure {
+    text-align: right;
+}
+figcaption {
+    font-family: “montaukregular”;
+    font-size: .9rem;
+}
 
 
 .heroImage {
@@ -138,4 +160,46 @@ li.nav-items {
     font-weight: normal;
     font-style: normal;
 
+}
+.cateringH1 {
+    background-color: white;
+    font-family: Fugaz One;
+    color: #5F002B;
+    font-size: 50px;
+}
+.cateringHero {
+width: 100%;
+height: 100%;
+padding:0px;
+}
+.cateringMaintxt {
+    font-family: Fugaz One;
+    color: #5F002B;
+    margin: 2rem;
+    font-size: 30px;
+    background-color: white;
+    text-align: start;
+
+    
+
+}
+.cateringMainP {
+    font-family: 'MontaukRegular';
+    color: #5F002B;
+    margin: 2rem;
+    font-size: 12px;
+    background-color: white;
+    text-align: start;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+
+
+}
+.cateringTomatoes {
+   width:100%;
+   height: 40vh;
+}
+.cateringMain {
+    background-color: white;
+   
 }
