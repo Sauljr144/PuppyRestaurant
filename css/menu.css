@@ -19,90 +19,63 @@ h2 {
 
 h5 {
     font-family: 'fugazone';
+
+}
+
+h6 {
+    font-family: "montauklight";
+    font-size: 1.563rem;
+    margin-bottom: 0;
 }
 
 p {
-    
     font-size: .85rem;
 }
 
 
+
+
 /* Nav Bar */
 .bg-body-tertiary {
-  --bs-bg-opacity: 0;
-  background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
-}
-
-.navColor {
-  color: #5F002B;
-  margin: 5px;
-  font-family: 'fugazone';
-  font-size: 20px;
-  text-decoration: none;
-}
-
-li.nav-items {
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-
-}
-.navbr {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-}
-
-
-/* About Paragraph CSS */
-
-.mybg {
-  background-color: white;
+    --bs-bg-opacity: 0;
+    background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+  }
   
-}
-.mybg h1{
-  padding-top: 1.25rem;
-  padding-left: 2rem;
-  padding-right: 1rem;
-}
-.mybg p
-{
-  padding-left: 2rem;
-  padding-right: 2rem;
-  text-align: left;
+  .navColor {
+    color: #5F002B;
+    margin: 5px;
+    font-family: 'fugazone';
+    font-size: 20px;
+    text-decoration: none;
+  }
   
-}
-
-.mybg p:nth-of-type(3)
-{
- 
-  padding-bottom: 4.25rem;
+  li.nav-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
   
-}
+  }
+  .navbr {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
 
-/* Our Team Title CSS */
-.team {
-  background-color: white;
-  height: 5rem;
+
+  /* Title */
+
+  .mytitle {
+    background-color: white;
+    height: 4rem;
+  }
+
   
-}
-
-.team h2 {
-  margin-bottom: 0%;
-  padding: 1.5rem;
-}
-
-
-
-
-/* Cards CSS */
+  /* Cards CSS */
 
 .card {
     
     border: none;
-    border-radius: 0;
-    
-    
+    border-radius: 0;   
 }
 
 .card-img-top {
@@ -114,9 +87,22 @@ li.nav-items {
     font-size: 1rem;
 }
 
+.table {
+    color: #5F002B;
+    /* border-color: #5F002B ; */
+    border-bottom: #5F002B;
+}
 
-/* footer */
 
+
+.mysize {
+    font-family: "montauklight";
+    font-size: 1.563rem;
+}
+
+
+
+/* Footer */
 figure {
   text-align: right;
 }
@@ -129,12 +115,6 @@ figcaption {
 
 
 
-/* To Check Layout */
-/* [class*="col"] {
-  padding: 1rem;
-  background-color: skyblue;
-  border: 2px solid white;
-} */
 
 
 
